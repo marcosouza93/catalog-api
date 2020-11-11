@@ -12,4 +12,4 @@ server:
 eureka:
   client:
     serviceUrl:
-      defaultZone: https://eureka-server-marco.herokuapp.com/
+      defaultZone: https://eureka-server-marco.herokuapp.com
