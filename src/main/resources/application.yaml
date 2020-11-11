@@ -5,23 +5,14 @@ spring:
         showSql: true
   application:
     name: catalog-api
-  cloud:
-    discovery:
-      enabled: true
-    gateway:
-      discovery:
-        locator:
-          enabled: true
-          lower-case-service-id: true
 
 server:
   port: 8080
 
 eureka:
   client:
-    fetch-registry: true
-    register-with-eureka: true
-    healthcheck:
-      enabled: true
     serviceUrl:
       defaultZone: https://eureka-server-marco.herokuapp.com/eureka/
+  instance:
+    hostname: eureka-server-marco.herokuapp.com
+    nonSecurePort: 80
