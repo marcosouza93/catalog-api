@@ -1,0 +1,10 @@
+spring:
+  jpa:
+    properties:
+      hibernate:
+        showSql: true
+  application:
+    name: catalog-api
+
+server:
+  port: 8080
