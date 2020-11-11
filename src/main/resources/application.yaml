@@ -12,7 +12,7 @@ server:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://eureka-server-marco.herokuapp.com:8761/eureka/
+      defaultZone: https://eureka-server-marco.herokuapp.com/eureka/
   instance:
     hostname: eureka-server-marco.herokuapp.com
     nonSecurePort: 80
